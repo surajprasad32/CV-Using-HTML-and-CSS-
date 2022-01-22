@@ -1,0 +1,155 @@
+*{
+    margin: .0;
+}
+
+body{
+    font-size: 106.25%;
+    font-family: "Source Sans Pro";
+    line-height: 30px;
+    background-image: url(https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+    background-size: 100vmax;
+
+}
+
+/************************Navigation Bar*******************/
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    position: relative;
+
+}
+
+.home{
+    padding: 20px;
+}
+
+
+/*********************Middle Container********************/
+.middle-container{
+    margin-top: 30px;
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+/**************Middle Container part - 2******************/
+
+.middle-container2{
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+
+/********************Bottom Container***********************/
+.bottom-container{
+    margin-top: 50px;
+    width: 100%;
+    height: 130px;
+    background-color: black;
+}
+
+/************************Heading 1**************************/
+h1{
+    padding: 0;
+    margin: 0;
+    padding-top: 25px;
+}
+
+/****************************Top Name**********************/
+.myname{
+    width: 30%;
+    height: 90px;
+    background-color: rgb(211, 191, 11);
+    text-align: center;
+    float: left;
+}
+
+
+/*******************ul,li,menu,a tag***********************/
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    padding-left: 90px;
+    padding-top: 25px;
+}
+
+.menu{
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: tomato;
+}
+
+
+/*********************Profile Picture********************/
+.profile-picture{
+    position: absolute;
+    height: 40%;
+    float: left;
+    top: 30px;
+    left: 40px;
+}
+
+
+/***********************Introduction***********************/
+.intro{
+    display: inline;
+    position: absolute;
+    top: 140px;
+    left: 500px;
+    line-height: 10px;
+}
+
+/*********************Academic image,text************************/
+.academic-image{
+    width: 20%;
+    position: absolute;
+    top: 445px;
+    left: 70px;
+}
+
+.text{
+    position: absolute;
+    top: 400px;
+    left: 500px;
+}
+
+
+/**********************Technical image,text************************/
+.technical-image{
+    position: absolute;
+    left: 90px;
+}
+
+.text2{
+    position: absolute;
+    top: 80px;
+    left: 500px;
+}
+
+.footer{
+    padding-top: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 10px;
+    color: whitesmoke;
+}
+
+span{
+    display: block;
+}
